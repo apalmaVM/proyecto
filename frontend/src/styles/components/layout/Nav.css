@@ -1,0 +1,38 @@
+nav{
+    background-color: #C6D57E;
+    margin-bottom: 2em;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-flex;
+    width: 18%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+nav ul li a{
+    color: teal;
+    text-align: center;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    display: block;
+    padding: 0.2em 0.4em;
+    text-decoration: none;
+
+}
+
+nav ul li:hover{
+    background-color: white;
+}
+
+nav ul li.active{
+    background-color: white;
+}

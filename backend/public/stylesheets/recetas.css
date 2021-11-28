@@ -1,0 +1,87 @@
+/*font-family: 'Bad Script', cursive;
+font-family: 'Explora', cursive;
+font-family: 'Roboto', sans-serif;*/
+
+header{
+    background-color: #A2CDCD;
+    padding: 1em 0;
+}
+
+header h1{
+    color: rgb(223, 121, 37);
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5em;
+    font-weight: 100;
+    display: inline-block;
+    /*position: relative;*/
+    bottom: 50px;
+}
+
+header img{
+    margin-bottom: 1.5em;
+}
+
+div h2{
+    font-family: 'Explota', cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+div p{
+    font-family: 'Explota', cursive;
+    font-size: medium;
+}
+
+nav{
+    background-color: #C6D57E;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-flex;
+    width: 18%;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul li p{
+    color: teal;
+    text-align: center;
+    font-family: 'Bad Script', cursive;
+    font-size: large;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li:hover{
+    background-color: white;
+}
+
+nav ul li.active{
+    background-color: white;
+}
+
+footer{
+    background-color: #FFE1AF;
+    clear: both;
+    color:#333;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+.holder{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+

@@ -1,0 +1,51 @@
+
+.tips{
+    overflow: hidden;
+}
+
+.tip{
+    width: 18%;
+    border:1px solid gray;
+    border-radius: 0.25em;
+    float: left;
+    margin: 2.25%;
+    box-sizing: border-box;
+	
+}
+
+.tip{
+    text-align: center;
+    background-color: rgba(126, 252, 0, 0.2);
+}
+
+.tip img{
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+     margin: 0.8em 1em;
+     max-width: 70%;
+}
+
+.tip h5{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: normal;
+    margin: 0;
+}
+
+.comentario{
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.texto{
+    background-color: rgb(39, 192, 9,0.2);
+	border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    height: 200;
+    width: 200;
+}

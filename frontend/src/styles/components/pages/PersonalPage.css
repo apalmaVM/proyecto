@@ -1,0 +1,7 @@
+img.persona{
+    float: left;
+    border-radius: 20%;
+    box-shadow: 0 0 5px rgb(0, 0, 0, 0.5);
+     margin: 0.8em 1em;
+     max-width: 70%;
+}

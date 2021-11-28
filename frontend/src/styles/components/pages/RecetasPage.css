@@ -1,0 +1,40 @@
+.receta .info{
+    width: 75%;
+}
+
+.receta .info h5{
+    font-size: 1.2em;
+    font-family: 'Dosis', sans-serif;
+    margin: 0 0 1em;
+    border-bottom: 1px solid gray;
+    padding-bottom: 0.5em;
+}
+
+.receta .info p{
+    font-family: 'Dosis', sans-serif;
+    font-size: 0.8em;
+}
+
+.receta img{
+    width: 120px;
+    height: 120px;
+    border-radius: 0.8em;
+}
+
+.receta:nth-child(even){
+    float: right;
+    margin: 2.25%;
+}
+
+.receta:nth-child(even) .info{
+    float: left;
+}
+
+.receta:nth-child(odd){
+    float: left;
+    margin: 2.25%;
+}
+
+.receta:nth-child(odd) .info{
+    float: right;
+}
